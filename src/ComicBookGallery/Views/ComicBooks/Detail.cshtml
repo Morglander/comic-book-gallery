@@ -24,7 +24,15 @@
 </head>
 <body>
     <div>
-        <h1>Hello From our View!</h1>
+        <h1>@seriesTitle</h1>
+        <h2>Issue Number #@issueNumber</h2>
+
+        <h5>Description:</h5>
+        <div>@Html.Raw(description)</div>
+
+        <h3>Artists:</h3>
+        <div>@artists</div>
+
     </div>
 </body>
 </html>
